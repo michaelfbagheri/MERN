@@ -1,0 +1,25 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js && cd client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelfbagheri/MERN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelfbagheri/MERN/issues"
+  },
+  "homepage": "https://github.com/michaelfbagheri/MERN#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.9",
+    "mongojs": "^3.1.0"
+  }
+}

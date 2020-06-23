@@ -1,0 +1,12 @@
+var mongodb = require('mongodb');
+
+
+var dataBaseURL = 'mongodb://127.0.0.1:27017/MERN';
+
+console.log("==========db url",dataBaseURL);
+
+var collections = ['post'];
+
+module.exports = mongodb.connect(dataBaseURL,collections);
+
+
