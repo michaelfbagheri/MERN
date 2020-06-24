@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const mongoControllers = require('./../controllers');
 
-router.get('/', mongoControllers.read)
+router.get('/posts', mongoControllers.read)
 
 
 //router.route('/create').post(mongoControllers.create);
